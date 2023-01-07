@@ -15,27 +15,28 @@
 }
 
 .banner{
- width: 50%;
+
  padding-top: 70px;
  position: relative;
  left:650px;
- padding-right: 230px;
-
+ /* padding-right: 230px; */
+padding-left:800px;
 }
 
 .banner-title{
     font-size: 65px;
     font-weight: 700;
     padding-bottom:80px;
+    width:30%
 }
 
 .banner-description{
     font-size: 16px;
     font-weight: 400;
     padding-bottom:20px;
-    position: relative;
-    left:50px;
-    width:60%;
+    /* position: relative;
+    left:50px; */
+    width:20%;
 }
 
 .banner-btn{
@@ -49,8 +50,8 @@ border-radius: 5px;
 color: #FFFFFF;
 background-color:#F15B22;
 border:0;
-position: relative;
-left:270px;
+/* position: relative;
+left:270px; */
 
 }
 
@@ -267,6 +268,7 @@ font-weight: 500;
     padding:15px 15px;
     position: relative;
     right:100px;
+    border-radius: 5px;
 }
 .button-last{
     position: relative;
