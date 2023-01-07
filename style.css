@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+/* header and banner style -----*/
+.header{
+ 
+    background-image: url("./images/banner/banner2.png");
+    background-size:100% 100%;
+    background-position: center;
+    width: 2500px;
+    height: 100vh;
+}
+
+.banner{
+ width: 50%;
+ padding-top: 70px;
+ position: relative;
+ left:650px;
+ padding-right: 230px;
+
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    padding-bottom:80px;
+}
+
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom:20px;
+    position: relative;
+    left:50px;
+    width:60%;
+}
+
+.banner-btn{
+ padding: 20px 25px;
+
+font-size: 18px;
+font-weight: 600;
+height: 64px;
+width: 160px;
+border-radius: 5px;
+color: #FFFFFF;
+background-color:#F15B22;
+border:0;
+position: relative;
+left:270px;
+
+}
+
+/* main section */
+/* section1 styles */
+
+.first{
+    display: flex;
+    margin-top: 130px;
+    margin-left:406px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-image img{
+height: 723px;
+width: 569px;
+border-radius: 0px;
+
+}
+
+.first-info{
+   margin-left: 86px;
+   width:60%
+}
+
+.info-title{
+    font-size: 40px;
+    font-weight: 700;
+padding-bottom: 16px;
+}
+
+.info-description{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+
+.info-list .list{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 16px;
+    list-style:circle;
+}
+
+/* my-plan styles */
+
+.plan-info{
+        display: flex;
+        flex-direction: column;
+        margin-top: 130px;
+        margin-left:200px;
+}
+
+.plan-title{
+    margin-left: 500px;
+    padding-bottom: 62px;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    left:300px;
+}
+
+.plan-must{
+    display: flex;
+    margin-left: 200px;
+    align-items: center;
+}
+
+.plan-icon{
+    height: 197px;
+    width: 150px;
+    padding: 0 129px;
+}
+
+.plan-icon-title{
+font-size: 30px;
+font-weight: 700;
+padding-top: 24px;
+padding-bottom: 16px;
+}
+
+.plan-icon-description{
+font-size: 25px;
+font-weight: 500;
+}
+
+/* third section */
+
+.third{
+    background-image:url("./images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 110px;
+    padding-top: 80px;
+    width:1400px;
+    height: 300px;
+    margin-top: 131px;
+    margin-left:450px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+ }
+
+ .third-title{
+    width: 20%;
+    padding-bottom: 25px;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+ .third-btn{
+    background: #FFFFFF;
+    color: #F15B22;
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* last */
+
+.last{
+    margin-top: 131px;
+    margin-left:450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.last img{
+    height: 569px;
+    width: 569px;
+    border-radius:50%;
+    
+    }
+.last-title{
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    left:400px; 
+    width:70%;
+}  
+
+/*  */
+
+
+
+
