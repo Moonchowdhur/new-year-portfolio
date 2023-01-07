@@ -166,7 +166,7 @@ font-weight: 500;
     color: #FFFFFF;
 }
 
- .third-btn{
+ .primary-btn{
     background: #FFFFFF;
     color: #F15B22;
     height: 64px;
@@ -203,7 +203,79 @@ font-weight: 500;
     width:70%;
 }  
 
-/*  */
+/* Footer section */
+
+.footer{
+    background-color: black;
+    width: 2500px;
+    height: 100vh;
+    margin-top: 131px;
+    color: white;
+    display: flex;
+    padding-top: 110px;
+    padding-left:400px;
+}
+
+/* Footer left section */
+
+.footer-first{
+    padding-left: 50px ;
+}
+
+.footer-first-title{
+   font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.footer-first-desc{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    width: 40%;
+}
+
+.footer-info{
+    font-size: 16px;
+    font-weight: 400; 
+    padding-bottom: 20px;
+}
+
+.footer-img img{
+   margin-right:25px ;
+}
+
+/* Footer right section */
+.footer-last{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-last-title{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom:30px;
+    position: relative;
+    right:100px;
+}
+
+.footer-last input{
+    margin-bottom:30px;
+    border:0.5px solid white;
+    background-color: black;
+    font-size: 25px;
+    font-weight: 600;
+    padding:15px 15px;
+    position: relative;
+    right:100px;
+}
+.button-last{
+    position: relative;
+    right:100px; 
+}
+
+
+
+
 
 
 
